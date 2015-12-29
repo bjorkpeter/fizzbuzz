@@ -1,12 +1,15 @@
 var number
 for (var number = 1; number <= 100; number++) {
    	if (number % 15 === 0){
-      document.write("FizzBuzz" + "<br>");
-    } else if (number % 3 === 0){
-      document.write("Fizz" + "<br>");
-    } else if (number % 5 === 0){
-      document.write("Buzz" + "<br>");  
-    } else {
-      document.write(number + "<br>");
+    	document.write("FizzBuzz" + "<br>");
+    } 
+    else if (number % 3 === 0){
+    	document.write("Fizz" + "<br>");
+    } 
+    else if (number % 5 === 0){
+    	document.write("Buzz" + "<br>");  
+    } 
+    else {
+    	document.write(number + "<br>");
     }
-	}
+}
